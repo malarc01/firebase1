@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from '@reach/router';
 
 class Home extends Component {
 	state = {};
@@ -27,20 +28,20 @@ class Home extends Component {
 						{user == null && (
 							<span>
 								<button>
-									<a href='/register' className='btn btn-outline-primary mr-2'>
+									<Link href='/register' className='btn btn-outline-primary mr-2'>
 										Register
-									</a>
+									</Link>
 								</button>
-								<a href='/login' className='btn btn-outline-primary mr-2'>
+								<Link href='/login' className='btn btn-outline-primary mr-2'>
 									Log In
-								</a>
+								</Link>
 							</span>
 						)}
 
 						{user && (
-							<a href='/meetings' className='btn btn-primary'>
+							<Link href='/meetings' className='btn btn-primary'>
 								Meetings
-							</a>
+							</Link>
 						)}
 					</div>
 				</div>
