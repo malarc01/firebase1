@@ -1,3 +1,4 @@
 # firebase1
 using React & Firebase 
-combine Login & register in 1 Component
+combine Login :w & register in 1 Component:q
+

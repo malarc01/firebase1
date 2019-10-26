@@ -13,9 +13,7 @@ import Register from './Register';
 class App extends Component {
 	constructor() {
 		super();
-		this.state = {
-			user: null
-		};
+		this.state = {};
 	}
 	componentDidMount() {
 		const ref = firebase.database().ref('user');

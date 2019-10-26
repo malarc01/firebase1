@@ -17,7 +17,7 @@ class Home extends Component {
 					Hello {user}
 					<div className='col-10 col-md-10 col-lg-8 col-xl-7'>
 						<div className='display-4 text-primary mt-3 mb-2' style={{ fontSize: 2.8 + 'em' }}>
-							APP PAGE
+							Home.js
 						</div>
 						<p className='lead' style={biggerLead}>
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae suscipit, tempore eos
@@ -25,7 +25,7 @@ class Home extends Component {
 							ipsam architecto? Voluptates, est cupiditate.
 						</p>
 
-						{user == null && (
+						{user === null && (
 							<span>
 								<button>
 									<Link to='/register' className='btn btn-outline-primary mr-2'>
