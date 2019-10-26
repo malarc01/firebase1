@@ -28,18 +28,18 @@ class Home extends Component {
 						{user == null && (
 							<span>
 								<button>
-									<Link href='/register' className='btn btn-outline-primary mr-2'>
+									<Link to='/register' className='btn btn-outline-primary mr-2'>
 										Register
 									</Link>
 								</button>
-								<Link href='/login' className='btn btn-outline-primary mr-2'>
+								<Link to='/login' className='btn btn-outline-primary mr-2'>
 									Log In
 								</Link>
 							</span>
 						)}
 
 						{user && (
-							<Link href='/meetings' className='btn btn-primary'>
+							<Link to='/meetings' className='btn btn-primary'>
 								Meetings
 							</Link>
 						)}
